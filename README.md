@@ -10,7 +10,6 @@ Welcome to the **Search Engine Project**! This project uses advanced Natural Lan
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Overview
 
@@ -62,3 +61,13 @@ Search-Engine/
 ├── requirements.txt          # List of dependencies
 ├── tools_agents.ipynb        # Jupyter notebook with additional tools and agents
 └── data/                     # Directory to store document data
+```
+## Technologies Used
+
+- **Python**: Main programming language.
+- **LangChain**: For advanced language processing workflows.
+- **sentence_transformers**: Embedding-based document matching.
+- **ChromaDB**: For efficient storage and retrieval of document embeddings.
+- **OpenAI API**: For language understanding and processing.
+- **Various Libraries**: `pandas`, `SQLAlchemy`, and `pytube` for data manipulation, database connection, and YouTube transcript retrieval.
+
